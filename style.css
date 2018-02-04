@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+    
+/* 
+    roze = #D6A597
+    groen = #ADC7C1
+    grijs = #96999B
+    zwart = #000000 
+*/
+
+
+body{
+	margin: 0;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+    height: 100vh;
+
+}
+
+    /*header*/
+
+.header {
+	background: #FFFFFF;
+	width: 100%;
+	height: 76px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	border-bottom: 5px solid #FFFFFF;
+}
+ 
+a {
+	color: #ADC7C1;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+}
+
+li:hover {
+    background-color: #000000;
+}
+ 
+#logo {
+	margin: 15px;
+	float: left;
+	width: 50px;
+	height: 50px;
+	background: url(Ruhr_logo.png) no-repeat center;
+    background-size: 100%;
+}
+ 
+.nav {
+	float: right;
+	padding: 20px;
+}
+ 
+#menu-icon {
+	background: url(menu-icon.png) no-repeat center;
+    background-size: 100%;
+	display: inline-block;
+    margin: 5px;
+	width: 30px;
+	height: 30px;
+}
+
+ .nav ul, nav:active ul { 
+ display: none;
+ position: absolute;
+ background: #96999B;
+ right: 0px;
+ top: 65px;
+ width: 100%;
+ }
+ 
+ .nav:hover ul {
+ display: block;
+ }
+ 
+ .nav li {
+ text-align:center;
+ width: 100%;
+ padding: 15px 0;
+ margin: 0;
+ }
+
+
+    /* main div */
+
+
+.main{
+    position: absolute;
+    margin-top: 75px;
+
+}
+
+.content{
+	padding: 20px;
+        
+}
+
+img{
+    width: 100%;
+}
+
+.hoofdstuk{
+	background-color: #96999B;
+	padding: 20px;
+	text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #ADC7C1;
+}
+
+.hoofdstuk h1{
+	font-size: 18px;
+	margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #ADC7C1;
+}
+
+.content h1{
+	font-size: 10px;
+	margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #ADC7C1;
+    text-align: center
+}
+
+p{
+	font-size: 14px;
+	margin: 0;
+    padding: 8px;
+    font-family: 'avenir', sans-serif;
+    color: #000000;
+    text-align: center
+}
+
+
+.footer{
+	background-color: #96999B;
+	padding: 8px;
+	text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #ADC7C1;
+}
